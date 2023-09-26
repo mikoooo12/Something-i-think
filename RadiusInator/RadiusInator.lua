@@ -1,4 +1,4 @@
-local MakeTris = require(script:WaitForChild("GenerateTris"))
+local MakeTris = require(script:WaitForChild("CreateTris"))
 local RadiusInator = {}
 RadiusInator.__index = RadiusInator
 
