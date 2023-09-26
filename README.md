@@ -1,6 +1,5 @@
 # Something-i-think
-i dont know what this is called lol
-Some docs
+i dont know what this is called lol heres some docs
 ### [.new()](RadiusInator.lua)
 it makes a new instance of this class
 ```lua
