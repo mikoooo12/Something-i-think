@@ -84,7 +84,7 @@ function RadiusInator:Update()
 	]]
 	if Vertices[Segments] and Vertices[1] then
 		local WedgeData = { MakeTris(Vertices[1], Vertices[Segments], Origin) }
-		local WedgesParts = { Constants.Wedges[Segments - 1], Constants.Wedges[Segments] }
+		local WedgesParts = { Constants.Wedges[Segments], Constants.Wedges[Segments * 2] }
 		for i, Wedge in ipairs(WedgesParts) do
 			Wedge.CFrame = WedgeData[i][1]
 			Wedge.Size = Vector3.new(Config.Thickness, 0, 0) + WedgeData[i][2]
