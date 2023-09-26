@@ -22,7 +22,7 @@ Pro tip changing the Config would automatically change it in the code as well
 
 Example code
 ```lua
-local WedgeClass = require(script.GenerateRadius)
+local WedgeClass = require(script.RadiusInator)
 local SampleWedge = Instance.new("WedgePart")
 SampleWedge.Anchored = true
 
