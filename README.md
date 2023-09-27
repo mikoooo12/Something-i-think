@@ -1,6 +1,6 @@
 # Something-i-think
 i dont know what this is called lol heres some docs
-### [.new()](RadiusInator.lua)
+### [.new()](RadiusInator/RadiusInator.lua)
 it makes a new instance of this class
 ```lua
 Module.new(Config: {
@@ -13,19 +13,19 @@ Module.new(Config: {
   Parent = workspace.Wedges
 }): Instance
 ```
-### [:Update()](RadiusInator.lua)
+### [:Update()](RadiusInator/RadiusInator.lua)
 Generates the actual thing you want
 ```lua
 Instance:Update(): {WedgePart}
 ```
 Pro tip changing the Config would automatically change it in the code as well
 
-### [:ClearAllFromView()](RadiusInator.lua)
+### [:ClearAllFromView()](RadiusInator/RadiusInator.lua)
 This method gets all the current part you can see and retire them to somewhere far away
 ```lua
 Instance:ClearAllFromView(): nil
 ```
-### [:Destroy()](RadiusInator.lua)
+### [:Destroy()](RadiusInator/RadiusInator.lua)
 This method destroys the Instance (dm me if there are memory leak i did not check)
 ```lua
 Instance:Destory(): nil
