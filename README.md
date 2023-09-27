@@ -11,7 +11,7 @@ Module.new(Config: {
   Thickness = 1,
   RaycastParameters = RaycastParams.new(),
   Parent = workspace.Wedges
-})
+}): Instance
 ```
 ### [:Update()](RadiusInator.lua)
 Generates the actual thing you want
@@ -20,6 +20,16 @@ Instance:Update(): {WedgePart}
 ```
 Pro tip changing the Config would automatically change it in the code as well
 
+### [:ClearAllFromView()](RadiusInator.lua)
+This method gets all the current part you can see and retire them to somewhere far away
+```lua
+Instance:ClearAllFromView(): nil
+```
+### [:Destroy()](RadiusInator.lua)
+This method destroys the Instance (dm me if there are memory leak i did not check)
+```lua
+Instance:Destory(): nil
+```
 Example code
 ```lua
 local WedgeClass = require(script.RadiusInator)
@@ -47,3 +57,4 @@ while task.wait() do
 	end
 end
 ```
+
